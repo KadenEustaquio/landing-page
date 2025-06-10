@@ -1,0 +1,95 @@
+* {
+    outline: 2px solid red;
+}
+
+div {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+    width: 1000px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-self: flex-start;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul .header {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 16px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    padding: 16px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    flex-wrap: wrap;
+}
+
+.second div {
+    margin: 8px;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    height: 32px;
+    width: 128px;
+    margin: 8px;
+    border-radius: 6px;
+}
+
+.information {
+    margin: 32px;
+}
